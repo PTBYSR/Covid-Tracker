@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #131b3a;
+  font-family: 'Encode Sans SC', sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #131b3a;
+  padding: 20px;
+}
+
+.app__dropdown {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app__header > h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
